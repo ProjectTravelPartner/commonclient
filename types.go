@@ -1,4 +1,4 @@
-package clientcommon
+package commonclient
 
 type RespJSON interface {
 	JSON(code int, obj interface{})
